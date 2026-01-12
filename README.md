@@ -1,6 +1,3 @@
-Here is a professional `README.md` for your project. It’s concise, highlights the "why" behind the project (especially the memory management aspect you'll discuss in class), and provides clear instructions for `uv`.
-
-```markdown
 # DuckDB vs. Pandas: Analytical Benchmark
 
 This project demonstrates the performance gap between **Pandas** (In-memory/Row-based processing) and **DuckDB** (Out-of-core/Vectorized/Columnar processing). 
@@ -63,15 +60,3 @@ The script will:
 4. Print a performance comparison.
 
 > **Note:** On most laptops, DuckDB is expected to be **5x to 10x faster** than Pandas for this specific analytical task.
-
-```
-
----
-
-### Tips for your live demo:
-1. **Highlight the `.gitignore`**: Remind them that `hopital_data.parquet` is **not** on GitHub because we don't track large binary data.
-2. **The `uv.lock` file**: Show them this file in the repo. It's the "DNA" of the project that ensures every student has the exact same environment.
-
-You are now fully equipped. Good luck with the class and the exam! You've got this.
-
-```
